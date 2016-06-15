@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/svandeinse/webplay/issues"
   },
-  "homepage": "https://github.com/svandeinse/webplay#readme"
+  "homepage": "https://github.com/svandeinse/webplay#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
