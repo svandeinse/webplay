@@ -3,6 +3,8 @@ console.log('hello world!');
 var express = require('express');
 var app = express();
 
+app.set('trust proxy', 'loopback');
+
 app.get('/', function (req, res) {
   console.log('client', req.ip);
   res.send('Hello World!');
